@@ -1,1 +1,0 @@
-# infotact-group5-data-analytics
