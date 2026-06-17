@@ -72,7 +72,7 @@ The United Kingdom generates significantly higher revenue compared to all other 
 
 ### Top 10 Most Popular Products
 
-![Top 10 Most Popular Products](screenshots/top_producs.png)
+![Top 10 Most Popular Products](screenshots/top_produts.png)
 
 **Observation:**
 A small number of products contribute a large share of total sales volume. These products are important drivers of customer demand.
