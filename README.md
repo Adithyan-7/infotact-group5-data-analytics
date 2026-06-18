@@ -20,11 +20,13 @@ The dataset contains online retail transaction records, including:
 
 * Invoice Number
 * Product Description
+* Stock code
 * Quantity
 * Unit Price
 * Customer ID
 * Country
 * Invoice Date
+* sales
 
 The dataset is used to analyze sales performance and customer purchasing patterns.
 
@@ -33,8 +35,6 @@ The dataset is used to analyze sales performance and customer purchasing pattern
 * Python
 * Pandas
 * NumPy
-* Matplotlib
-* Seaborn
 * colab Notebook
 * GitHub
 
@@ -42,11 +42,11 @@ The dataset is used to analyze sales performance and customer purchasing pattern
 
 The following data cleaning steps were performed:
 
+* Verified data types and data consistency
 * Removed missing values.
 * Converted InvoiceDate into datetime format.
 * Created a Revenue column using Quantity × UnitPrice.
 * Checked and removed duplicate records.
-* Verified data types and data consistency.
 
 ## EDA Summary
 
@@ -75,7 +75,7 @@ The United Kingdom generates significantly higher revenue compared to all other 
 ![Top 10 Most Popular Products](screenshots/top_produts.png)
 
 **Observation:**
-A small number of products contribute a large share of total sales volume. These products are important drivers of customer demand.
+A small number of products contribute a large share of total sales volume. These products are important drivers of customer demand and paper craft Little Birdie  is the most popular product.
 
 ### Monthly Revenue Trend
 
@@ -106,15 +106,10 @@ A small group of customers contributes a significant portion of total revenue. R
 ## Business Recommendations
 
 1. Focus on retaining high-value customers through loyalty programs.
-2. Promote top-performing products through targeted marketing campaigns.
+2. Promote top-performing products to increase sales and revenue.
 3. Maintain sufficient inventory for high-demand products.
-4. Expand business efforts in high-performing countries.
-5. Analyze customer purchasing trends regularly.
-6. Use seasonal revenue patterns for better sales planning.
-7. Offer personalized promotions to repeat customers.
-8. Monitor customer retention and engagement metrics.
-9. Improve marketing strategies for lower-performing regions.
-10. Use data-driven decision-making to optimize revenue growth.
+4. Expand marketing efforts in high-performing countries.
+5. Use monthly revenue trends to plan seasonal promotions and sales strategies.
 
 ## Team Members
 
