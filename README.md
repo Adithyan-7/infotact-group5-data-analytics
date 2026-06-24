@@ -22,6 +22,7 @@ This project analyzes over 541,000 online retail transactions to identify sales 
 01_data_cleaning.ipynb
 02_eda.ipynb
 03_cohort_analysis.ipynb
+04_cltv_analysis.ipynb
 
 ## Team Members
 - Adithyan A
